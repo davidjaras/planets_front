@@ -1,0 +1,36 @@
+.header {
+  align-items: center;
+  background: #282c34;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+}
+
+.header__img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.add-planet {
+	margin-right: 90px;
+  padding: 5px 20px;
+  background: transparent;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.add-planet:hover {
+	margin-right: 90px;
+  background: rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+.add-planet img {
+  margin-right: 8px;
+  width: 40px;
+}
